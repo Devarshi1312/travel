@@ -1,0 +1,70 @@
+body{
+    background-image: url('travel3.jpg');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.top{
+    width:1470px;
+     height:80px;
+     background:rgba(5, 5, 5, 0.363) ;
+     border-radius: 10px;
+     top:4%;
+     left: 2%;
+     position: absolute;
+     box-sizing: border-box;
+}
+.t{
+    position: absolute;
+    display: flex;
+     right: 0;
+   }
+.top1{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+  }
+  .image{
+    margin-left: 20px;
+}
+.dua1 input[type="text"]{
+    border:none;
+    border-bottom:2px solid #fff;
+    width:450px;
+    background-color: transparent;
+}
+.tex{
+    color: #fff;
+    text-align: center;
+ }
+.bottom{
+    width:1470px;
+    height:120px;
+    background:rgba(0, 0, 0, 0.493) ;
+    top:600px;
+    
+    margin-left: 30px;
+    position: absolute;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logos{
+    display: flex; 
+  }
+  .logo{
+    padding: 10px;
+  }
+.dua{
+    height: 400px;
+    width: 500px;
+    margin-top: 120px;
+    margin-left: 500px;
+    background: rgba(0, 0, 0, 0.336);
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}

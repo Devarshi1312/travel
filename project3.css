@@ -1,0 +1,116 @@
+ *{
+    margin: 0;
+    box-sizing: border-box;
+ }
+.first {
+  height : 100%;
+  background-image : url("travel3.jpg") ;
+  background-size : cover;
+  background-position :center;
+  background-attachment :fixed;
+  padding-top: 30px;
+  padding-right: 20px;
+  text-align: center;
+  display: flex;
+}    
+.login{
+    width:100px;
+    padding:8px 0;
+    outline: none !important;
+    border: 2px solid rgb(66, 219, 240);
+    border-radius : 50px;
+    background : transparent;
+    color : rgb(66, 219, 240);
+    height: 50px;
+    cursor:pointer;
+    position:absolute;
+    right: 20px;
+}
+.login1{
+  width:100px;
+  padding:8px 0;
+  outline: none !important;
+  border: 2px solid rgb(66, 219, 240);
+  border-radius : 50px;
+  background : transparent;
+  color : rgb(66, 219, 240);
+  height: 50px;
+  cursor:pointer;
+  position:absolute;
+  right: 120px;
+}
+
+.search{
+  border: 3px solid rgb(66, 219, 240) ;
+  border-radius:5px;
+  width:30%;
+  height: 30px;
+}
+.search-button{
+  border: 3px solid rgb(66, 219, 240) ;
+  border-radius: 5px;
+  width:5%;
+  height: 30px;
+}
+.text_some{
+  color: aliceblue;
+  padding-top:2px ;
+  padding-left:30px ;
+}
+.info{
+  height: 400px;
+  width:85%;
+  top:25%;
+  left:7.5%;
+  border-radius: 15px;
+  position:absolute;
+  box-sizing: border-box;
+  text-align: center;
+}
+h1{
+  color: #fff;
+}
+.image{
+  float: left;
+  padding-left: 50px;
+}
+.bottom{
+  top: 40%;
+  left: 500px;
+  margin-left: 200px;
+  height: 100px;
+  width: 100%;
+  background: rgb(247, 246, 243);
+}
+.bott{
+  display: flex;
+}
+.bottom{
+  float:left;
+  bottom: 20%;
+  background: transparent;
+  color: #fff;
+  float: left;
+  left: 0%;
+}
+.top1{
+    color: rgb(255, 255, 255);
+    margin: 14px;
+    position: absolute;
+    right: 240px;
+}
+.top2{
+  color: rgb(255, 255, 255);
+  margin: 14px;
+  position: absolute;
+  right: 360px;
+}
+.top3{
+  color: rgb(255, 255, 255);
+  margin: 14px;
+  position: absolute;
+  right: 480px;
+}
+
+
+

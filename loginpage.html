@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" herf="home.css">
+    <title>LOGIN</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        body{
+            height : 100%;
+            background-image : url("travel3.jpg") ;
+            background-size : cover;
+            background-position :center;
+            background-attachment :fixed;
+            padding-top: 30px;
+            padding-right: 20px;
+            text-align: center;
+        }
+        .login{
+             width:320px;
+             height: 350px;
+             background:rgba(3, 3, 3, 0.322) ;
+             color:#fff;
+             top:33%;
+             left:40%;
+             border-radius: 15px;
+             position:absolute;
+             box-sizing: border-box;
+        }
+        .login input[type="text"],input[type="password"]{
+            border:none;
+            border-bottom:2px solid #fff;
+            width:200px;
+            background-color: transparent;
+        }
+        .image{
+            float: left;
+            padding-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    
+     <div class="image">
+        <img src="Screenshot (6).png" height="100px" width="100px">
+     </div>   
+     
+    <section class="some">
+        <div class="login"> 
+            <h1>LOGIN</h1>
+            <centre>
+            <form>
+            <label for="fname">Username:</label><br><br>
+            <input type="text" id="fname" name="fname" value="" required><br><br>
+            <label for="lname">password:</label><br><br>
+            <input type="password" id="lname" name="lname" value=""required><br><br>
+            <input type="submit" value="Login"><br><br>
+            <input type="checkbox"required>I agree all the conditions
+            <p>Forgot your password?<a href="forgot.html">click here</a></p>
+            <a herf="#">www.traveldream.com</a>
+          </form>
+        </centre>
+        </div>
+    </section>
+    
+</body>
+</html>
